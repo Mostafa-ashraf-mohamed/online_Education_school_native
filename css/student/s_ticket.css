@@ -1,0 +1,60 @@
+/* body css */
+body{
+    background-color: #F9F9F9;
+}
+
+.container i{
+    font-size: 30px;
+    margin-top: 3px;
+}
+
+table{
+    margin-top: 50px;
+}
+
+.ticket{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.ticket .cont{
+    width: 600px;
+    height: 440px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 130px;
+    background-color: white;
+    box-shadow: 0px 0px 30px #000000;
+    border-radius: 8px;
+}
+
+#exit{
+    position: fixed;
+    right: 32%;
+    z-index: 200;
+    width: 35px;
+    height: 35px;
+    padding: 4px 9px;
+    font-size: 26px;
+    color: #50658e;
+}
+
+/* start media */
+@media (max-width: 765px){
+    .cont{
+        width: 97% !important;
+    }
+
+    #ticket{
+        width: 100% !important;
+    }
+
+    #exit{
+        right: 10%;
+    }
+}

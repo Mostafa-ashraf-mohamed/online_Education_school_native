@@ -1,0 +1,86 @@
+body {
+    background-color: #F9F9F9;
+}
+
+/* body css */
+.chapter {
+    border: rgba(201, 201, 201, 0.425) 1.5px solid;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+/* video */
+.video {
+    width: 100%;
+    height: 50px;
+}
+
+.chapter img {
+    width: 25px;
+    height: 25px;
+    border-radius: 100px;
+}
+
+.chapter .my-span {
+    margin-left: 10px;
+    color: #06c;
+}
+
+.chapter .my-span:hover {
+    color: rgb(1, 72, 143);
+}
+
+.chapter .btn {
+    width: 60% !important;
+    text-align: left !important;
+}
+/* nav tea */
+.rightSlide .cont {
+    transform: translateX(0px) rotateY(90deg);
+    background: white !important;
+    position: absolute;
+    top: 25%;
+    transition: all .4s;
+}
+
+.rightSlide {
+    float: right;
+    position: relative;
+    top: -8%;
+    left: -60%;
+    background: transparent;
+}
+
+.rightSlide ul {
+    text-align: center;
+}
+
+.rightSlide ul li {
+    list-style-type: none;
+    padding: 5px;
+    position: relative;
+    width: 80px;
+    background-color: #E2E8F0 !important;
+    transition: all .4s ease-out;
+}
+
+.rightSlide ul li:hover {
+    transform: translateX(-70px);
+}
+
+.rightSlide ul li:hover>.cont {
+    transform: translateX(70px) rotateY(0deg);
+    transition: all .4s;
+}
+
+.TIMG {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+}
+
+@media (max-width: 765px) {
+    .rightSlide {
+        left: 168%;
+    }
+}

@@ -1,0 +1,181 @@
+body {
+    background-color: #F9F9F9 !important;
+}
+
+.container .row .teacherCard {
+    position: relative;
+    margin: 20px;
+}
+
+.container .row .teacherCard img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15rem;
+    border-radius: 40px;
+    cursor: pointer;
+    filter: grayscale(0) blur(0);
+    transition: .3s ease-in-out;
+}
+
+.container .row .teacherCard p {
+    color: #444;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 5px;
+    transition: .3s ease-in-out;
+}
+
+.container .row .teacherCard:hover>img {
+    filter: grayscale(100%) blur(3px);
+    border-radius: 50%;
+}
+
+.container .row .teacherCard:hover>.teacherBody {
+    filter: grayscale(0) blur(0);
+    border-radius: 50%;
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.container .row .teacherCard .teacherBody {
+    opacity: 0;
+    transition: .3s ease-in-out;
+}
+
+.container .row .teacherCard .teacherBody i {
+    position: absolute;
+    top: -130px;
+    right: 45%;
+    font-size: 35px;
+    transition: .3s ease-in-out;
+}
+
+.container .row .teacherCard .teacherBody p {
+    position: absolute;
+    top: 22%;
+    left: 28%;
+    color: rgb(251, 255, 0);
+    font-size: 18px;
+    margin-top: 5px;
+    transition: .3s ease-in-out;
+}
+
+.container .row .teacherCard .teacherBody p span {
+    color: rgb(255, 255, 255);
+}
+
+.container .row .teacherCard img:hover+.teacherBody {
+    bottom: -50px;
+    opacity: 1;
+    transition: .3s ease-in-out;
+}
+
+/* new teacher */
+.addT{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 40px;
+    font-size: 50px;
+}
+
+
+.create{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000000;
+}
+
+.create .cont{
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 150px;
+    background-color: white;
+    box-shadow: 0px 0px 30px #000000;
+    border-radius: 8px;
+}
+
+.create .style-2{
+    margin: 19px 40px 10px 5px;
+}
+
+.create .div-1{
+    border: #1c1e21 1px solid;
+    width: 114px;
+    margin: 8px 0 8px 8px;
+    display: inline;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 15px
+}
+
+.create .s1{
+    margin: auto;
+    width: 340px;
+    margin-bottom: 5px;
+}
+
+.create .gender{
+    margin: 0;
+}
+
+.create .radio{
+    float: right;
+    margin-top: 7px;
+}
+
+.create .addTeasher{
+    width: 75%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+#exit{
+    position: fixed;
+    right: 40%;
+    z-index: 200;
+    width: 35px;
+    height: 35px;
+    padding: 4px 9px;
+    font-size: 26px;
+    color: #50658e;
+}
+
+/* start media */
+@media (max-width: 765px){
+    .h1-style{
+        -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: green;
+    }
+
+    .create .cont{
+        width: 97%;
+        margin-top: 5px;
+        height: 430px;
+        margin-top: 100px;
+    }
+
+    .cont .form-control{
+        height: 35px;
+    }
+
+    .cont .div-1{
+        width: 96px;
+        margin-bottom: 0;
+    }
+
+    #exit{
+        right: 10%;
+    }
+}

@@ -1,0 +1,68 @@
+#accordionExample .card .btn-toggle {
+    display: flex;
+    justify-content: space-between;
+    color: #50658e;
+    font-size: 16px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+#accordionExample .card .btn-toggle:hover{
+    background-color: rgb(238, 238, 238);
+}
+
+.active {
+    color: #2a81ea !important;
+    font-weight: bold;
+}
+
+/* add department */
+.department , .subject{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.department .cont , .subject .cont{
+    width: 600px;
+    height: 250px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 170px;
+    background-color: white;
+    box-shadow: 0px 0px 30px #000000;
+    border-radius: 8px;
+}
+
+.subject .cont{
+    height: 300px;
+}
+
+#exit , #exit2{
+    position: fixed;
+    right: 500px;
+    width: 35px;
+    height: 35px;
+    padding: 4px 9px;
+    font-size: 26px;
+    color: #50658e;
+}
+
+/* start media */
+@media (max-width: 765px){
+    .cont{
+        width: 97% !important;
+    }
+
+    #department , #subject{
+        width: 100% !important;
+    }
+
+    #exit , #exit2{
+        right: 20px;
+    }
+}

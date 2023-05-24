@@ -1,0 +1,105 @@
+body{
+    background-color: #F9F9F9;
+}
+
+.profile{
+    background-color: white;
+    padding: 14px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #0000001a;
+}
+
+.profile-img{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0,0.1);
+    padding-top: 30px;
+    text-align: center;
+    /* height: 350px; */
+}
+
+.infoImage{
+    width: 70%;
+    border-radius: 30px;
+}
+
+.image{
+    width: 70%;
+    /* height: 70% !important; */
+    border-radius: 30px;
+    transition: .3s ease-in-out;
+}
+
+.image:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.my-btn{
+    margin-top: 20px;
+    height: 40px;
+    width: 90%;
+}
+
+/* edit div */
+.back-edit{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.edit{
+    width: 500px;
+    height: 450px;
+    border-radius: 30px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: white;
+    box-shadow: 0px 0px 30px #000000;
+    border-radius: 8px;
+}
+
+.table-edit{
+    width: 100%;
+}
+
+.table-edit td{
+    height: 50px;
+}
+
+#exit{
+    position: fixed;
+    right: 37%;
+    z-index: 200;
+    width: 35px;
+    height: 35px;
+    font-size: 26px;
+    color: #50658e;
+}
+
+/* start media */
+@media (max-width: 765px){
+    .profile-img{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .my-btn{
+        margin-bottom: 20px;
+    }
+
+    .edit{
+        width: 97%;
+    }
+
+    #exit{
+        right: 10%;
+    }
+}

@@ -1,0 +1,250 @@
+body{
+    background-image: url(../images/Black-Desk-Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.login{
+    width: 350px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 0.05);
+    box-shadow: 0px 0px 20px #000000;
+}
+
+.h1-style{
+    color: white;
+    size: 15px;
+}
+
+.lbl-style{
+    color: white;
+}
+
+.back{
+    border-radius: 20px;
+    padding: 7px 20px;
+}
+
+.create{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.create .cont{
+    width: 400px;
+    height: 600px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 70px;
+    background-color: white;
+    box-shadow: 0px 0px 30px #000000;
+    border-radius: 8px;
+}
+
+.create .s1{
+    margin: auto;
+    width: 340px;
+    margin-bottom: 18px;
+}
+
+.create .s2{
+    display: inline !important;
+    width: 236px;
+}
+
+.create .style-1{
+    margin:5px 11px 5px 5px;
+}
+
+.create .style-2{
+    margin: 19px 40px 10px 5px;
+}
+
+.create .div-1{
+    border: #1c1e21 1px solid;
+    width: 114px;
+    margin: 8px 0 8px 8px;
+    display: inline;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 15px
+}
+
+.create .gender{
+    margin: 0;
+}
+
+.create .radio{
+    float: right;
+    margin-top: 7px;
+}
+
+.create .signup{
+    width: 75%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+#exit{
+    position: fixed;
+    right: 39%;
+    z-index: 200;
+    width: 35px;
+    height: 35px;
+    padding: 4px 9px;
+    font-size: 26px;
+    color: #50658e;
+}
+
+/* start media */
+@media (max-width: 765px){
+    .h1-style{
+        -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: green;
+    }
+
+    .create .cont{
+        width: 97%;
+        margin-top: 5px;
+        height: 95%;
+    }
+
+    .cont .form-control{
+        height: 35px;
+    }
+
+    .cont .s2{
+        width: 200px;
+    }
+
+    .cont .div-1{
+        width: 96px;
+        margin-bottom: 0;
+    }
+
+    #exit{
+        right: 10%;
+    }
+}
+/*===========================*/
+.show-me {
+    display: block;
+}
+.open-ot-alert {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #ccc;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 30rem;
+    text-align: left;
+    margin: 3rem auto;
+    padding: 1rem;
+    line-height: 2rem;
+    background-color: #805300;
+}
+.open-ot-alert:hover {
+    cursor: pointer;
+    background-color: #b37400;
+}
+.open-ot-alert p {
+    color: #444;
+}
+.more-ot-alert {
+    display: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 10px;
+    background-color: #eee;
+    border: 2px solid #9e9e9e;
+    height: 4.2rem;
+    width: 12rem;
+    transform: translateZ(0);
+    animation: move 0.4s ease 3;
+    position: absolute;
+    z-index: 55;
+}
+/**/
+.pass{
+    right: 25%;
+    bottom: 27%;
+    height: 10.2rem;
+}
+.name{
+    right: -121%;
+    top: -53%;
+    height: 4.2rem;
+}
+.Email{
+    right: 25%;
+    top: 40%;
+    height: 4.2rem;
+}
+.phonenumber{
+    right: 25%;
+    top: 32%;
+    height: 4.2rem;
+}
+.DOB{
+    right: 11%;
+    top: 56%;
+    height: 4.2rem;
+}
+/**/
+.more-ot-alert p {
+    font: 16px Arial;
+    line-height: 18px;
+    line-height: 1.2rem;
+    margin-top: 0;
+}
+.more-ot-alert:before {
+    content: "";
+    position: absolute;
+    top: 24px;
+    left: -15px;
+    border-style: solid;
+    border-width: 15px 15px 15px 0;
+    border-color: transparent #9e9e9e;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+.more-ot-alert:after {
+    content: "";
+    position: absolute;
+    top: 27px;
+    left: -12px;
+    border-style: solid;
+    border-width: 12px 12px 12px 0;
+    border-color: transparent #eee;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+.more-ot-alert .close-ot-alert {
+    font-size: 15px;
+    font-size: 1rem;
+    clear: both;
+    cursor: pointer;
+    float: right;
+    margin: -5px -3px 0 0;
+}
+.more-ot-alert .close-ot-alert i {
+    color: #999;
+}
+.more-ot-alert .close-ot-alert i:hover {
+    color: #c00;
+}
+@keyframes move {
+    50% {
+        transform: translate(10px, 0);
+   }
+}

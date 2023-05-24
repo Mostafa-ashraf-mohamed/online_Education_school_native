@@ -1,0 +1,79 @@
+/*a*/
+#chipAR {
+margin-right: 635px !important;
+}
+@media (max-width: 765px) {
+    #chipAR {
+        margin-right: 0 !important;
+    }
+}
+.pdfimg{
+    float: left;
+    text-align: left;
+}
+.filterIcon{
+    right: 7px;
+    }
+.d div .form-check-input{
+        margin-right: 202px;
+        display: inline-block;
+}
+/*t*/
+#chipART {
+    margin-right: 863px!important;
+}
+.notification .card{
+    left: 335px !important;
+}
+@media (max-width: 765px) {
+    #chipART {
+        margin-right: 0 !important;
+    }
+    .navbar ul li {
+        margin-right: 267px!important;
+        margin-left: 15px !important;
+        margin: auto;
+    }
+    .notification .card{
+left: 607px !important;
+}
+}
+
+
+.pdfimg1{
+    top: -11px;
+    position: absolute;
+    left: 517px;
+}
+@media (max-width: 765px) {
+    .pdfimg1{
+        top: -16px;
+    position: absolute;
+    left: 289px;
+    }
+}
+.answer {
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.rightSlide {
+    top: -8%;
+    left: -48%;
+}
+@media (max-width: 765px) {
+    .rightSlide {
+        top: -10%;
+        left: -22%;
+    }
+}
+.s_h4{
+    text-align: justify;
+}
+.con{
+    text-align:right;
+}
+@media (max-width: 765px) {
+    .create .style-2 {
+        margin: 20px 20px 10px 21px;
+    }
+}

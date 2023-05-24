@@ -1,0 +1,29 @@
+#all-comments{
+    height: 500px !important;
+    margin: 0 !important;
+}
+
+.comment .action{
+    margin-left: 200px;
+}
+
+.comment .action i{
+    margin: 10px 10px 0 10px;
+    font-size: 18px;
+}
+
+.reply{
+    cursor: pointer;
+}
+.Pointer{
+cursor: pointer;
+}
+.Pointer:hover{
+    color: rgb(170, 170, 15);
+}
+/* start media */
+@media (max-width: 765px){
+    #all-comments{
+        height: 363px !important;
+    }
+}
