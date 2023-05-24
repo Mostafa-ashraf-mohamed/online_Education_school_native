@@ -306,9 +306,9 @@ include "PhpConfig/config.php";
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>School</h3>
             <p>
-              A108 Adam Street <br>
-              Nasr City, NY 535022<br>
-              Cairo <br><br>
+              A108 play Street <br>
+              address city, NY 535022<br>
+              address <br><br>
             </p>
           </div>
 
